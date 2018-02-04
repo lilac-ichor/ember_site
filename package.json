@@ -1,0 +1,21 @@
+{
+  "name": "ember_site",
+  "version": "0.0.1",
+  "description": "The backend of ember.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Callum Li",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "express-sanitized": "^0.5.1",
+    "express-validation": "^1.0.2",
+    "express-validator": "^4.3.0",
+    "pg-promise": "^7.4.1",
+    "underscore": "^1.8.3"
+  }
+}
